@@ -1,0 +1,78 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.virtual-cards-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.virtual-cards-head {
+  display: flex;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 21px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.anchor-tag {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: blue;
+}
+.video-icon {
+  height: 14px;
+  width: 14px;
+  margin-right: 3px;
+}
+.learn-more-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+.add-card-container {
+  display: flex;
+  align-items: center;
+}
+.plus-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.virtual-card-add-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+.tabs-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+.tabs-container {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-grid-icons-container {
+  display: flex;
+  align-items: center;
+}
+.menu-icon {
+  width: 20px;
+  height: 20px;
+}
+.grid-icon {
+  width: 24px;
+  height: 24px;
+}
+.cards-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,14 @@
+.tab-item {
+  margin-right: 12px;
+  cursor: pointer;
+  outline: none;
+}
+.tab-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+}
+.active {
+  font-weight: bold;
+  border-bottom: 2px solid pink;
+}
